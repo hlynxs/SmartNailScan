@@ -18,6 +18,9 @@ datasets/
 *.pt
 *.pth
 *.ckpt
+!models/**/*.pt
+!models/**/*.pth
+!models/**/*.ckpt
 runs/
 results/
 
