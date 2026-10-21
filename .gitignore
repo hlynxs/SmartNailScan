@@ -1,0 +1,45 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env/
+*.venv
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# Dataset and training artifacts
+datasets/
+
+# Model weights / outputs
+*.pt
+*.pth
+*.ckpt
+runs/
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Node / React Native
+node_modules/
+.expo/
+android/.gradle/
+android/build/
+ios/Pods/
+ios/build/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local app config
+local.properties
